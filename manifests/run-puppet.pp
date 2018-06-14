@@ -11,7 +11,7 @@ cron { 'run-puppet':
 }
 
 file {'/tmp/hello.txt':
-  ensure => file,
-  mode => '0755',
+  ensure  => file,
+  mode    => '0755',
   content => "Hello World!\n",
 }

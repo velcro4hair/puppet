@@ -3,6 +3,6 @@ package { 'ruby':
 }
 
 package { 'puppet-lint':
-  ensure => installed,
+  ensure   => installed,
   provider => gem,
 }
